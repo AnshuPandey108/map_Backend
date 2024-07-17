@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+.env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# If using pipenv:
+Pipfile.lock
+
+# Other common files to ignore
+.DS_Store
+.idea/
+.vscode/
